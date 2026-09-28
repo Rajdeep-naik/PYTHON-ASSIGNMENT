@@ -1,7 +1,7 @@
 """Assignment 3: Check whether a triangle is a right-angled triangle using functions."""
 
 
-def is_right_angled_triangle(side1: float, side2: float, side3: float):
+def is_right_angled_triangle(side1,side2, side3):
     """Checks the Pythagorean theorem: a^2 + b^2 == c^2.
 
     Returns True if right-angled, False otherwise.
