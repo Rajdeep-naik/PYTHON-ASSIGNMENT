@@ -1,7 +1,7 @@
 """Assignment 2: Find the largest of three numbers using conditional statements."""
 
 
-def find_largest(num1: float, num2: float, num3: float):
+def find_largest(num1, num2, num3):
     """Evaluates and returns the largest among three numbers."""
     if num1 >= num2 and num1 >= num3:
         return num1
@@ -12,9 +12,9 @@ def find_largest(num1: float, num2: float, num3: float):
 
 
 def main():
-    print("=" * 45)
-    print("       FIND LARGEST OF THREE NUMBERS")
-    print("=" * 45)
+    print(f"{'=' * 45}")
+    print(f"{'FIND LARGEST OF THREE NUMBERS':^45}")
+    print(f"{'=' * 45}")
 
     try:
         n1 = float(input("Enter first number: "))
