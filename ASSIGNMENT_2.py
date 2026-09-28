@@ -1,7 +1,7 @@
 """Assignment 2: Find the largest of three numbers using conditional statements."""
 
 
-def find_largest(num1: float, num2: float, num3: float) -> float:
+def find_largest(num1: float, num2: float, num3: float):
     """Evaluates and returns the largest among three numbers."""
     if num1 >= num2 and num1 >= num3:
         return num1
