@@ -8,7 +8,6 @@ def is_right_angled_triangle(side1,side2, side3):
     """
     if side1 <= 0 or side2 <= 0 or side3 <= 0:
         return False
-
     # Sort sides so the largest side is always the hypotenuse
     sides = sorted([side1, side2, side3])
     base, perpendicular, hypotenuse = sides[0], sides[1], sides[2]
